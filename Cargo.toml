@@ -4,7 +4,4 @@ version = "0.1.0"
 authors = ["Marc Schettke <schettke@ms2.info>"]
 
 [dependencies]
-# conrod = "0.28.0"
-
-[dependencies.conrod]
-path = "../conrod"
+conrod = { git = "https://github.com/masche842/conrod", branch = "backend_agnostic" }
